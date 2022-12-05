@@ -1,0 +1,12 @@
+n=int(input("ENTER HOW MANY NUMBERS YOU WANT"))
+large=0
+small=0
+i=0
+while i<n:
+    num=int(input("ENTER NUMBER"))
+    if num>large:
+        large=num
+    else:
+        small=num
+    i=i+1
+print("THE DIFFERECE IS : ",(large-small))
