@@ -1,0 +1,9 @@
+num = int(input('If n is a number and it is '))
+s= 0
+r=0
+i=num
+while i>0:
+       r=i%10
+       s= s+r
+       i=i//10
+print(s)
