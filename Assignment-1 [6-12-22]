@@ -1,0 +1,8 @@
+a=int(input("ENTER THE NUMBER:"))
+i=a
+n=0
+while(i>0):
+       r=i%10
+       n=n*10+r
+       i=i//10
+print("THE REVERSE OF NUMBER IS:",n)
